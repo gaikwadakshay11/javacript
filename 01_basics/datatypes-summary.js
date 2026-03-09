@@ -27,3 +27,18 @@ const myfunction = function() {
 }
 console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
+
+
+//stack (primitive), Heap (non-Primitive)
+let myYoutubename = "akshaydotcom"
+let anothername = myYoutubename
+anothername ="code"
+console.log(anothername);
+console.log(anothername);
+
+let userOne ={
+     email:"user@google.com",
+     upi:"user@ybi"
+}
+let usertwo = userOne
+usertwo.email ="akshay@google.com"

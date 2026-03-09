@@ -11,4 +11,8 @@ console.log(gameName._proto_);
  
 console.log(gameName.length);
 console.log(gameName.toUpperCase);
-
+ 
+const ur = "https//hitesh.com\hitesh%20choudhary"
+// console.log(url.replace('%20','-'))
+// console.log(url.include('sundar'))
+// console.log(gameName.split(''));
